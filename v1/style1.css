@@ -1,0 +1,149 @@
+/*index.php*/
+body{
+    background-color: #e9ecef;
+  }
+/*navbar*/
+.navbar-brand{
+    font-size: 28px;
+    font-family: 'Raleway';
+    font-weight: 300;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.dropdown{
+    border-left: 1px solid rgb(83, 83, 83);
+}
+/*navbar*/
+/*vertical navbar*/
+#ColVert{
+    height: 100vh;    
+    box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);          
+    background-image: linear-gradient(to right, rgb(52, 58, 64) , rgb(38, 59, 79)); /* Standard syntax (must be last) */
+}
+#DHeader{
+    font-size: 18px;
+    color: #f2f2f2;
+    font-family: 'Raleway';
+    font-weight: 200;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+#v-pills-tab a {
+    font-size: 14px;
+    color: #f2f2f2;
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+#v-pills-tab a:hover{    
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.navlink{
+    padding: 7px 0px;
+}
+
+/*vertical navbar*/
+/*MainContent*/
+#MainContent{
+    padding: 0px 40px;
+}
+#RowStats .jumbotron  {
+    text-align: center  ;
+    background-color: white;
+    padding: 10px 7px;
+    box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+}   
+#RowStats .jumbotron h5{
+    font-size: 44px;
+    color: rgb(109, 109, 109);
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+#RowStats .jumbotron p{
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+#FeeSearch{
+    background-color: white;
+    padding: 27px 75px;
+    
+}
+.btn{
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+#StudentDetailsTable{
+    background-color: white;
+}
+#StudentDetailsTable h3{
+    font-size: 24px;
+    color: rgb(77, 77, 77);
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+#StudentDetailsTable td{
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    font-family: 'Raleway';
+    font-weight: 200;
+}
+.form-control-lg {
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200
+}
+#StudentsContent{
+    background-color: white;
+    padding: 25px 70px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+}
+.fade:not(.show) {
+    opacity: 100;
+}
+#TabList a{
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    color:#495057;
+}
+#TabList a :hover{
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    color:#495057;
+}
+#AccountAdd{
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 200;
+    color:#495057;
+    padding: 25px 70px;
+    box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+
+}
+#ReceiptSearch{
+    background-color: white;
+    padding: 27px 75px;
+    
+}
+@media only screen and (max-width: 1440px) {
+    #StudentDetailsTable{
+      padding: 20px 75px;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    #StudentDetailsTable{
+  
+    }
+   
+  }
+/*MainContent*/
+ /*index.php*/ 

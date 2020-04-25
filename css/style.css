@@ -1,0 +1,217 @@
+/*index.php*/
+body{
+  background-color: #e9ecef;
+}
+/*navbar*/
+.navbar-brand{
+  font-size: 28px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  color: #ff4141;
+}
+
+.navbar-light .navbar-brand {
+  color: #ff4141;
+}
+.dropdown{
+  border-left: 1px solid rgb(83, 83, 83);
+}
+/*navbar*/
+/*vertical navbar*/
+#ColVert{
+  height: 100vh;    
+  box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);          
+  background-image: linear-gradient(to right, #363636, #292929 ); /* Standard syntax (must be last) */
+}
+#DHeader{
+  font-size: 18px;
+  color: rgb(255, 77, 77);
+  font-family: 'Raleway';
+  font-weight: 800;
+  
+}
+#v-pills-tab a {
+  font-size: 14px;
+  color: rgb(248, 248, 248);
+  font-family: 'Raleway';
+  font-weight: 800;
+}
+#v-pills-tab a:hover{    
+  color: rgb(255, 77, 77);
+  text-decoration: none;
+}
+.navlink{
+  padding: 7px 0px;
+}
+#v-pills-tab a:active {
+  color: rgb(255, 77, 77);
+  text-decoration: none;
+  padding: 8px 25px;
+  border-radius: 5px;
+}
+
+/*vertical navbar*/
+/*MainContent*/
+#MainContent{
+  padding: 0px 40px;
+}
+#RowStats .jumbotron  {
+  text-align: center  ;
+  background-color: white;
+  padding: 10px 7px;
+  box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+}   
+#RowStats .jumbotron h5{
+  font-size: 44px;
+  color: rgb(255, 77, 77);
+  font-family: 'Raleway';
+  font-weight: 800;
+}
+#RowStats .jumbotron p{
+  font-size: 12px;
+  color: rgb(255, 77, 77);
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+#FeeSearch{
+  background-color: white;
+  padding: 27px 75px;
+  
+}
+.btn{
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+#StudentDetailsTable{
+  background-color: white;
+}
+#StudentDetailsTable h6{
+  font-size: 14px;
+  color: #ff4141;
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+#StudentDetailsTable td{
+  font-size: 14px;
+  color: rgb(77, 77, 77);
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+.form-control-lg {
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 200
+}
+#StudentsContent{
+  background-color: white;
+  padding: 25px 70px;
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+}
+.fade:not(.show) {
+  opacity: 100;
+}
+#TabList a{
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 200;
+  color:#495057;
+}
+#TabList a :hover{
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 200;
+  color:#495057;
+}
+#AccountAdd{
+  background-color: white;
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  color:#495057;
+  padding: 25px 70px;
+  box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+
+}
+#AccountAdd h5{
+  color:#212529;
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+#ReceiptSearch{
+  background-color: white;
+  padding: 27px 75px;
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  
+}
+@media only screen and (max-width: 1440px) {
+  #StudentDetailsTable{
+    padding: 20px 75px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #StudentDetailsTable{
+
+  }
+ 
+}
+/*MainContent*/
+/*index.php*/ 
+/*studentlist.php*/
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #e9ecef;
+}
+
+.bg-danger {
+  background-color: #ff4141!important;
+  
+}
+
+#StudentsContent {
+  background-color: white;
+  padding: 25px 70px;
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-weight: 800;
+  box-shadow: 0 1rem 1rem 0 rgb(152, 152, 152);
+} 
+#AddNewStudentBtn,#Print_Button, #AddUserButton, #Print_Button, #FormSearchBtn, #Search_Button, #AddStudent_btn{
+  color:white;
+  background-color: #ff4141!important;
+  border-radius: 5rem;
+  border-color: #ff4141;
+}
+#usr{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid  #ff4141;
+  border-radius: 0px;
+  font-size: 12px;
+}
+#usr:focus{
+  box-shadow: none;
+}
+#FormSearch .lnr{
+  font-size: 16px;
+  color: #ff4141;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,.5);
+  font-size: 12px;
+}
+#ReceiptSearch th{
+  font-size: 12px;
+}
+#v-pills-account  {
+  font-size: 12px;
+}
+
+/*studentlist.php*/
